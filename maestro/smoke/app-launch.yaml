@@ -1,0 +1,7 @@
+appId: host.exp.exponent
+---
+- launchApp
+- tapOn: "exp://192.168.1.8:8081"
+- waitForAnimationToEnd:
+    timeout: 10000
+- assertVisible: "GET STARTED"
